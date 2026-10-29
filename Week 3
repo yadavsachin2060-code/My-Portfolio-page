@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sachin Yadav's personal portfolio">
+    <title>Sachin Yadav | My Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Sachin Yadav</h1>
+        <p>B.Tech CSE Student | Beginner Programmer</p>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#about">About</a> |
+            <a href="#courses">Courses</a> |
+            <a href="#blog">Blog</a> |
+            <a href="https://www.google.com"
+               target="_blank" rel="noopener noreferrer">Google</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+
+            <img src="https://placehold.co/200x200?text=My+Photo"
+                 alt="My portfolio profile picture"
+                 width="200">
+
+            <p>
+                Hello! My name is <strong>Sachin Yadav</strong>.
+                I am pursuing B.Tech in Computer Science and
+                Engineering from Invertis University.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I am a student interested in programming and
+                web development. I am currently learning
+                <em>Java and HTML</em>.
+                My goal is to become a skilled software developer.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Courses Section with Nested Lists -->
+        <section id="courses">
+            <h2>My Courses</h2>
+
+            <ul>
+                <li>Programming
+                    <ul>
+                        <li>Java</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </li>
+
+                <li>Web Development
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </li>
+
+                <li>Computer Science
+                    <ul>
+                        <li>Computer Fundamentals</li>
+                        <li>Mathematics</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Blog Section -->
+        <section id="blog">
+            <h2>My Blog</h2>
+
+            <article>
+                <h3>My First Step into Coding</h3>
+
+                <p>
+                    Learning coding is an exciting journey.
+                    I started learning HTML to create web pages.
+                    HTML helps us structure websites using
+                    headings, paragraphs, images and links.
+                </p>
+
+                <p>
+                    I am improving my programming skills every day.
+                    In the future, I want to learn more technologies
+                    and build useful projects.
+                </p>
+            </article>
+        </section>
+
+        <!-- Aside -->
+        <aside>
+            <h3>My Goal</h3>
+            <p>To become a successful software developer.</p>
+        </aside>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>Student: Sachin Yadav</p>
+        <p>Course: B.Tech CSE</p>
+        <p>&copy; 2026 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
